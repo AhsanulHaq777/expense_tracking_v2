@@ -34,7 +34,7 @@ jobs:
     - name: Install Surge
       run: npm install --global surge    
     - name: Deploy to Surge
-      run: surge ./build expense_tracker_prac.surge.sh --token ${{secrets.SURGE_EXPENSE_TRACKER_V2}}    
+      run: surge ./build expense_tracker_pracV2.surge.sh --token ${{secrets.SURGE_EXPENSE_TRACKER_V2}}    
         
         
         
